@@ -1,0 +1,7 @@
+//运行项目
+//切换到项目的运行环境
+conda activate py3.6
+//切换到项目目录
+cd D:\目标检测\object-detection
+//运行
+python real_time_object_detection.py --prototxt MobileNetSSD_deploy.prototxt.txt --model MobileNetSSD_deploy.caffemodel
